@@ -17,7 +17,12 @@ public class SpringBlockApplication {
 	@Bean
 	CommandLineRunner runner(BlockService blockService){
 		return args->{
-			blockService.runBlockExample();
+			//Ejemplo simple
+			//blockService.runBlockExample();
+			
+
+			blockService.runFilesWithBlockChain();
+			
 		};
 	}
 
